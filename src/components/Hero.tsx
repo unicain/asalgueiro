@@ -131,13 +131,20 @@ export const Hero: React.FC = () => {
               <div className="absolute -inset-3 rounded-2xl border border-[#C5A059]/30 -z-10 translate-x-2 translate-y-2 pointer-events-none hidden sm:block" />
               
               <div className="relative rounded-2xl overflow-hidden bg-[#1E1613] border-2 border-[#C5A059]/60 shadow-2xl group">
-                {/* Imagem de Andréa Salgueiro */}
-                <img
-                  src={BRAND_ASSETS.andreaPhoto}
-                  alt="Andréa Salgueiro - Numeróloga Terapêutica"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-[480px] sm:h-[520px] object-cover object-center group-hover:scale-105 transition-transform duration-700 brightness-95 contrast-105"
-                />
+                {/* Imagem de Andréa Salgueiro com suporte moderno WebP + Fallback JPG */}
+                <picture>
+                  <source srcSet={BRAND_ASSETS.andreaPhoto} type="image/webp" />
+                  <img
+                    src={BRAND_ASSETS.andreaPhotoFallback}
+                    alt="Andréa Salgueiro - Numeróloga Terapêutica"
+                    referrerPolicy="no-referrer"
+                    loading="eager"
+                    decoding="async"
+                    width={800}
+                    height={1100}
+                    className="w-full h-[480px] sm:h-[520px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  />
+                </picture>
 
                 {/* Gradiente sutil inferior para garantir legibilidade dos selos de autoridade */}
                 <div className="absolute inset-0 bg-gradient-to-t from-[#121212]/95 via-[#121212]/30 to-transparent pointer-events-none" />

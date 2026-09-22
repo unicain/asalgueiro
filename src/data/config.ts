@@ -26,8 +26,9 @@ export const getWhatsAppUrl = (customMessage?: string): string => {
 // Substitua as URLs abaixo pelas fotos profissionais de Andréa Salgueiro.
 // ============================================================================
 export const BRAND_ASSETS = {
-  // Foto oficial em alta resolução de Andréa Salgueiro no Hero
-  andreaPhoto: "/assets/andrea-hero.jpg",
+  // Foto oficial da Andréa Salgueiro otimizada para alta performance web (WebP/JPG)
+  andreaPhoto: "/assets/andrea-hero.webp",
+  andreaPhotoFallback: "/assets/andrea-hero.jpg",
   // Foto ambiente / espaço terapêutico em SP
   consultoryPhoto: "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=1000&auto=format&fit=crop",
   // Textura sagrada sutil
