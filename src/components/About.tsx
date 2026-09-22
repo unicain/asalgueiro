@@ -73,13 +73,21 @@ export const About: React.FC = () => {
           <div className="lg:col-span-5 space-y-6">
             <div className="relative rounded-2xl p-2 bg-[#121212] border border-[#C5A059]/40 shadow-2xl">
               
-              <div className="relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-900">
-                <img
-                  src={BRAND_ASSETS.consultoryPhoto}
-                  alt="Espaço terapêutico de acolhimento e escuta"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-transparent to-transparent opacity-85" />
+              <div className="relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-900 group">
+                <picture>
+                  <source srcSet={BRAND_ASSETS.andreaAboutPhoto} type="image/webp" />
+                  <img
+                    src={BRAND_ASSETS.andreaAboutPhotoFallback}
+                    alt="Andréa Salgueiro - Mentora e Numeróloga Terapêutica"
+                    referrerPolicy="no-referrer"
+                    loading="lazy"
+                    decoding="async"
+                    width={800}
+                    height={800}
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  />
+                </picture>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/20 to-transparent opacity-90" />
                 
                 {/* Cartão de citação sobre a foto */}
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-[#1E1613]/90 backdrop-blur-md border border-[#C5A059]/40">
