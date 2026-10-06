@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { DestinyCalculator } from './components/DestinyCalculator';
+import { ConsultationInclusions } from './components/ConsultationInclusions';
 import { About } from './components/About';
 import { Services } from './components/Services';
 import { Comparison } from './components/Comparison';
@@ -12,18 +13,21 @@ import { FloatingWhatsApp } from './components/FloatingWhatsApp';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[#121212] text-stone-100 font-sans selection:bg-[#C5A059] selection:text-black">
+    <div className="min-h-screen bg-[#2B2622] text-stone-100 font-sans selection:bg-[#C5A059] selection:text-black">
       {/* 1. Header com Logo, Navegação e CTA */}
       <Header />
 
       <main>
-        {/* 2. Hero Section (Above the Fold) */}
+        {/* 2. Hero Section (Abertura Clean & Acolhedora na Primeira Dobra) */}
         <Hero />
 
-        {/* 3. Calculadora Interativa de Número de Destino (Lead Magnet CRO) */}
+        {/* 3. Calculadora Interativa de Número de Destino (Destaque logo após o Hero) */}
         <DestinyCalculator />
 
-        {/* 4. Sobre Mim (Trajetória, Espiritismo, Reiki e Método C.A.L.M.A.) */}
+        {/* 4. Inclusões & Diferenciais do Atendimento (Áudio, Dossiê em PDF, 2h de Consulta e Garantia Humana) */}
+        <ConsultationInclusions />
+
+        {/* 5. Sobre Mim (Trajetória, Espiritismo, Reiki e Método C.A.L.M.A.) */}
         <About />
 
         {/* 5. Serviços (Grid de 6 Cards com WhatsApp individualizado) */}

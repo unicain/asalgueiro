@@ -15,7 +15,7 @@ export const Testimonials: React.FC = () => {
         
         {/* CABEÇALHO */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#121212] border border-[#C5A059]/40 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#2B2622] border border-[#C5A059]/40 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5" />
             <span>Depoimentos Reais &amp; Histórias de Transformação</span>
           </div>
@@ -35,7 +35,7 @@ export const Testimonials: React.FC = () => {
           {TESTIMONIALS_DATA.map((item) => (
             <div
               key={item.id}
-              className="relative p-7 sm:p-8 rounded-2xl bg-[#121212] border border-stone-800 hover:border-[#C5A059]/50 transition-all duration-300 shadow-xl flex flex-col justify-between group"
+              className="relative p-7 sm:p-8 rounded-2xl bg-[#26211D] border border-stone-800 hover:border-[#C5A059]/50 transition-all duration-300 shadow-xl flex flex-col justify-between group"
             >
               {/* Ícone de aspas douradas no fundo */}
               <Quote className="absolute top-6 right-6 w-10 h-10 text-[#C5A059]/10 group-hover:text-[#C5A059]/20 transition-colors pointer-events-none" />

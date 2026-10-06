@@ -38,7 +38,7 @@ export const Services: React.FC = () => {
   return (
     <section 
       id="servicos"
-      className="py-20 lg:py-28 bg-[#121212] text-stone-100 relative"
+      className="py-20 lg:py-28 bg-[#2B2622] text-stone-100 relative"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
@@ -84,11 +84,11 @@ export const Services: React.FC = () => {
                 <div>
                   {/* TOPO DO CARD: ÍCONE E CATEGORIA */}
                   <div className="flex items-start justify-between mb-5">
-                    <div className="w-12 h-12 rounded-xl bg-[#121212] border border-[#C5A059]/30 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 rounded-xl bg-[#26211D] border border-[#C5A059]/30 flex items-center justify-center group-hover:scale-110 transition-transform">
                       {renderIcon(service.iconName)}
                     </div>
                     {!isPopular && (
-                      <span className="text-[11px] font-semibold text-[#C5A059] bg-[#121212] px-2.5 py-1 rounded-md border border-stone-800">
+                      <span className="text-[11px] font-semibold text-[#C5A059] bg-[#26211D] px-2.5 py-1 rounded-md border border-stone-800">
                         {service.badge}
                       </span>
                     )}
@@ -144,7 +144,7 @@ export const Services: React.FC = () => {
                     className={`w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-xs sm:text-sm font-semibold transition-all duration-200 ${
                       isPopular
                         ? 'bg-[#25D366] hover:bg-[#1EBE5D] text-white shadow-lg shadow-green-950/30'
-                        : 'bg-[#121212] hover:bg-[#25D366] text-stone-200 hover:text-white border border-stone-700 hover:border-transparent'
+                        : 'bg-[#26211D] hover:bg-[#25D366] text-stone-200 hover:text-white border border-stone-700 hover:border-transparent'
                     }`}
                   >
                     <MessageCircle className="w-4 h-4 fill-current" />

@@ -47,13 +47,13 @@ export const About: React.FC = () => {
     >
       {/* Luz ambiente suave */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#C5A059]/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#121212]/80 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#26211D]/80 rounded-full blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* CABEÇALHO DA SEÇÃO */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#121212] border border-[#C5A059]/40 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#2B2622] border border-[#C5A059]/40 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-3">
             <Feather className="w-3.5 h-3.5" />
             <span>Trajetória &amp; Vocação</span>
           </div>
@@ -71,7 +71,7 @@ export const About: React.FC = () => {
           
           {/* COLUNA ESQUERDA: FOTOS E ELEMENTOS INSTITUCIONAIS */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="relative rounded-2xl p-2 bg-[#121212] border border-[#C5A059]/40 shadow-2xl">
+            <div className="relative rounded-2xl p-2 bg-[#26211D] border border-[#C5A059]/40 shadow-2xl">
               
               <div className="relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-900 group">
                 <picture>
@@ -87,7 +87,7 @@ export const About: React.FC = () => {
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
                   />
                 </picture>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#121212] via-[#121212]/20 to-transparent opacity-90" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#26211D] via-[#26211D]/20 to-transparent opacity-90" />
                 
                 {/* Cartão de citação sobre a foto */}
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-[#1E1613]/90 backdrop-blur-md border border-[#C5A059]/40">
@@ -107,7 +107,7 @@ export const About: React.FC = () => {
 
             {/* BOX DE FORMAÇÕES E PILARES */}
             <div className="grid grid-cols-2 gap-3">
-              <div className="p-3.5 rounded-xl bg-[#121212] border border-stone-800 flex items-start gap-3">
+              <div className="p-3.5 rounded-xl bg-[#26211D] border border-stone-800 flex items-start gap-3">
                 <div className="p-2 rounded-lg bg-[#C5A059]/15 text-[#C5A059] shrink-0">
                   <Award className="w-5 h-5" />
                 </div>
@@ -117,7 +117,7 @@ export const About: React.FC = () => {
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-[#121212] border border-stone-800 flex items-start gap-3">
+              <div className="p-3.5 rounded-xl bg-[#26211D] border border-stone-800 flex items-start gap-3">
                 <div className="p-2 rounded-lg bg-[#C5A059]/15 text-[#C5A059] shrink-0">
                   <BookOpen className="w-5 h-5" />
                 </div>
@@ -149,7 +149,7 @@ export const About: React.FC = () => {
 
             {/* DESTAQUE: O MÉTODO C.A.L.M.A. */}
             <div className="pt-4">
-              <div className="rounded-2xl bg-[#121212] border border-[#C5A059]/30 p-5 sm:p-6">
+              <div className="rounded-2xl bg-[#26211D] border border-[#C5A059]/30 p-5 sm:p-6">
                 <div className="flex items-center gap-2 mb-3">
                   <Sparkles className="w-5 h-5 text-[#C5A059]" />
                   <h3 className="font-serif text-lg sm:text-xl font-bold text-stone-100">

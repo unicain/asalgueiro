@@ -43,7 +43,7 @@ export const FloatingWhatsApp: React.FC = () => {
         <MessageCircle className="w-7 h-7 sm:w-8 sm:h-8 fill-white transition-transform group-hover:rotate-12" />
         
         {/* Badge notificadora discreta */}
-        <span className="absolute top-0 right-0 w-4 h-4 bg-[#C5A059] border-2 border-[#121212] rounded-full" />
+        <span className="absolute top-0 right-0 w-4 h-4 bg-[#C5A059] border-2 border-[#2B2622] rounded-full" />
       </a>
     </div>
   );

@@ -17,7 +17,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer id="main-footer" className="bg-[#121212] text-stone-400 border-t border-stone-800 pt-16 pb-12 relative">
+    <footer id="main-footer" className="bg-[#1E1613] text-stone-400 border-t border-[#3A332C] pt-16 pb-12 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* GRID PRINCIPAL DO RODAPÉ */}

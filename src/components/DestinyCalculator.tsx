@@ -144,16 +144,16 @@ export const DestinyCalculator: React.FC = () => {
   const resultData = calculatedNumber ? LIFE_PATH_MEANINGS[calculatedNumber] || LIFE_PATH_MEANINGS[9] : null;
 
   return (
-    <section className="py-16 bg-[#121212] text-stone-100 border-b border-stone-800 relative">
+    <section className="py-16 sm:py-20 bg-[#26211D] text-stone-100 border-b border-[#3A332C] relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="rounded-3xl bg-gradient-to-b from-[#1E1613] to-[#121212] border border-[#C5A059]/40 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+        <div className="rounded-3xl bg-gradient-to-b from-[#332D28] to-[#2B2622] border border-[#C5A059]/40 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
           
           {/* LUZ DE FUNDO */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#C5A059]/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="text-center max-w-2xl mx-auto mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#121212] border border-[#C5A059]/30 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-2">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#2B2622] border border-[#C5A059]/30 text-[#C5A059] text-xs font-semibold uppercase tracking-wider mb-2">
               <Sparkles className="w-3.5 h-3.5" />
               <span>Experiência Interativa Gratuita</span>
             </div>
@@ -181,7 +181,7 @@ export const DestinyCalculator: React.FC = () => {
                     value={day}
                     onChange={(e) => setDay(e.target.value)}
                     required
-                    className="w-full bg-[#121212] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
+                    className="w-full bg-[#26211D] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
                   />
                 </div>
 
@@ -195,7 +195,7 @@ export const DestinyCalculator: React.FC = () => {
                     value={month}
                     onChange={(e) => setMonth(e.target.value)}
                     required
-                    className="w-full bg-[#121212] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
+                    className="w-full bg-[#26211D] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
                   />
                 </div>
 
@@ -209,7 +209,7 @@ export const DestinyCalculator: React.FC = () => {
                     value={year}
                     onChange={(e) => setYear(e.target.value)}
                     required
-                    className="w-full bg-[#121212] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
+                    className="w-full bg-[#26211D] border border-stone-700 rounded-xl px-3 py-2.5 text-center text-stone-100 text-sm focus:border-[#C5A059] focus:outline-none"
                   />
                 </div>
               </div>
@@ -233,7 +233,7 @@ export const DestinyCalculator: React.FC = () => {
           ) : (
             /* RESULTADO COM CRO INTELIGENTE */
             <div className="max-w-xl mx-auto text-center space-y-5 animate-in zoom-in-95 duration-300">
-              <div className="inline-flex flex-col items-center justify-center w-24 h-24 rounded-2xl bg-[#121212] border-2 border-[#C5A059] shadow-xl mx-auto">
+              <div className="inline-flex flex-col items-center justify-center w-24 h-24 rounded-2xl bg-[#26211D] border-2 border-[#C5A059] shadow-xl mx-auto">
                 <span className="text-3xl sm:text-4xl font-serif font-bold text-[#C5A059]">
                   {calculatedNumber}
                 </span>
@@ -249,7 +249,7 @@ export const DestinyCalculator: React.FC = () => {
                 </p>
               </div>
 
-              <div className="p-4 rounded-xl bg-[#121212] border border-stone-800 text-left space-y-2 text-xs sm:text-sm text-stone-300">
+              <div className="p-4 rounded-xl bg-[#26211D] border border-stone-800 text-left space-y-2 text-xs sm:text-sm text-stone-300">
                 <p><strong>Potência:</strong> {resultData?.description}</p>
                 <p><strong>Desafio de Evolução:</strong> {resultData?.challenge}</p>
               </div>

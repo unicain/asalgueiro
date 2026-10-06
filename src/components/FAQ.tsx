@@ -13,7 +13,7 @@ export const FAQ: React.FC = () => {
   return (
     <section 
       id="faq"
-      className="py-20 lg:py-28 bg-[#121212] text-stone-100 relative border-t border-stone-800"
+      className="py-20 lg:py-28 bg-[#2B2622] text-stone-100 relative border-t border-[#3A332C]"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
