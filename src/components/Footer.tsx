@@ -43,7 +43,7 @@ export const Footer: React.FC = () => {
 
             <div className="pt-2 flex items-center gap-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/andreasalgueironumerologia/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-lg bg-[#1E1613] border border-stone-800 hover:border-[#C5A059] flex items-center justify-center text-stone-300 hover:text-[#C5A059] transition-colors"
@@ -139,7 +139,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#servicos" className="hover:text-[#C5A059] transition-colors">
-                  Mesa Radiónica / Quântica &amp; SVH
+                  Mesa Radiônica / Quântica &amp; SVH
                 </a>
               </li>
             </ul>
@@ -156,7 +156,7 @@ export const Footer: React.FC = () => {
                 <MapPin className="w-4 h-4 text-[#C5A059] shrink-0 mt-0.5" />
                 <div>
                   <strong className="text-stone-200 block">São Paulo / SP:</strong>
-                  <span>Atendimento Presencial em consultório harmonizado (com agendamento prévio).</span>
+                  <span>Atendimento Presencial em Higienópolis / Centro / Jardins (com agendamento prévio).</span>
                 </div>
               </div>
 

@@ -26,7 +26,7 @@ export const About: React.FC = () => {
     {
       letter: 'L',
       title: 'Liberação',
-      description: 'Corte de padrões cármicos e crenças herdadas que impedem a sua prosperidade real.',
+      description: 'Corte de padrões cármicos e crenças que impedem a sua prosperidade real.',
     },
     {
       letter: 'M',
@@ -92,7 +92,7 @@ export const About: React.FC = () => {
                 {/* Cartão de citação sobre a foto */}
                 <div className="absolute bottom-6 left-6 right-6 p-4 rounded-xl bg-[#1E1613]/90 backdrop-blur-md border border-[#C5A059]/40">
                   <p className="font-serif italic text-sm text-stone-200 leading-relaxed">
-                    &ldquo;Os números não determinam um destino imutável; eles revelam o mapa das suas potências para que você exerça seu livre-arbítrio com sabedoria.&rdquo;
+                    &ldquo;Os números não determinam um destino imutável; eles revelam o mapa das suas potencias para que você exerça seu livre-arbítrio com sabedoria, fazendo assim seu caminho de vida e de propósito.&rdquo;
                   </p>
                   <p className="mt-2 text-xs font-semibold text-[#C5A059] uppercase tracking-wider">
                     — Andréa Salgueiro
@@ -113,7 +113,7 @@ export const About: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-xs font-bold text-stone-200">Mestre em Reiki</h4>
-                  <p className="text-[11px] text-stone-400 mt-0.5">Linhagem Usui Tradicional</p>
+                  <p className="text-[11px] text-stone-400 mt-0.5">Linhagem Holy Fire Reiki (Hawai)</p>
                 </div>
               </div>
 
@@ -135,11 +135,11 @@ export const About: React.FC = () => {
             
             <div className="space-y-4 text-stone-300 text-sm sm:text-base leading-relaxed">
               <p>
-                Por muitos anos, construí minha carreira no dinâmico universo da <strong className="text-stone-100 font-semibold">Publicidade e Comunicação</strong>. Eu compreendia profundamente o comportamento humano, as narrativas e as aspirações sociais. No entanto, faltava a dimensão da alma — a resposta para o motivo pelo qual tantas pessoas bem-sucedidas continuavam sentindo um vazio interior e uma sensação constante de desalinhamento.
+                Por muitos anos trabalhei no mercado corporativo no dinâmico universo de transportes e logística e também da publicidade. Eu compreendia profundamente o comportamento humano, as narrativas e as aspirações sociais. No entanto, faltava a dimensão da alma — a resposta para o motivo pelo qual tantas continuavam sentindo um vazio interior e uma sensação constante de desalinhamento.
               </p>
 
               <p>
-                A busca por respostas verdadeiras me conduziu à espiritualidade séria. Ao longo de mais de uma década dedicada ao <strong className="text-[#C5A059] font-medium">Espiritismo</strong>, às formações em <strong className="text-[#C5A059] font-medium">Reiki Usui</strong>, <strong className="text-[#C5A059] font-medium">SVH (Serenity Vibration Healing)</strong> e à profundidade da <strong className="text-[#C5A059] font-medium">Numerologia Cabalística e Vibracional</strong>, percebi que os números são a chave mestra que decodifica as leis cósmicas individuais.
+                A busca por respostas verdadeiras me conduziu de volta à espiritualidade. Ao longo de mais de uma década dedicada ao <strong className="text-[#C5A059] font-medium">Espiritismo</strong>, às formações em <strong className="text-[#C5A059] font-medium">Reiki Usui</strong>, <strong className="text-[#C5A059] font-medium">Holy Fire Reiki</strong>, <strong className="text-[#C5A059] font-medium">SVH (Serenity Vibration Healing)</strong> e à profundidade da <strong className="text-[#C5A059] font-medium">Numerologia Pitagórica</strong>, percebi que os números são a chave mestra que decodifica as leis cósmicas individuais.
               </p>
 
               <p>
@@ -158,7 +158,7 @@ export const About: React.FC = () => {
                 </div>
                 
                 <p className="text-xs sm:text-sm text-stone-400 mb-4">
-                  Metodologia proprietária criada por Andréa Salgueiro para transformar a análise dos números em paz de espírito e atitude prática no cotidiano:
+                  Metodologia própria criada por Andréa Salgueiro para transformar a análise dos números em paz de espírito e atitude prática no cotidiano.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-5 gap-3">

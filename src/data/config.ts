@@ -4,6 +4,12 @@
  */
 
 // ============================================================================
+// LINK DA PLANILHA PUBLICADA DO GOOGLE SHEETS
+// Se preferir, cole o link publicado da planilha entre as aspas abaixo:
+// ============================================================================
+export const GOOGLE_SHEETS_CSV_URL = "";
+
+// ============================================================================
 // 1. CONFIGURE AQUI: NÚMERO DO WHATSAPP E MENSAGENS PADRÃO
 // Número oficial de Andréa Salgueiro: (11) 94462-8445
 // ============================================================================
@@ -70,7 +76,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       "Consulta ao vivo (online ou SP) + gravação em áudio + PDF completo",
     ],
     duration: "1h40 a 2h de imersão",
-    format: "Presencial em SP ou Online via Zoom / Meet",
+    format: "Presencial em SP - Higienópolis / Centro / Jardins, ou Online via Zoom / Meet",
     iconName: "Compass",
   },
   {
@@ -143,7 +149,7 @@ export const SERVICES_DATA: ServiceItem[] = [
   },
   {
     id: "mesa-radionica",
-    title: "Mesa Radiónica / Quântica & SVH",
+    title: "Mesa Radiônica / Quântica & SVH",
     subtitle: "Limpeza energética profunda, desbloqueio e harmonização dos chacras",
     badge: "Terapia Vibracional",
     description:
@@ -186,7 +192,7 @@ export const COMPARISON_POINTS = [
   },
   {
     feature: "Visão Holística Integrada",
-    andrea: "Une Numerologia Cabalística com vivência no Espiritismo, Reiki, Radiônica e o exclusivo Método C.A.L.M.A.",
+    andrea: "Une Numerologia Pitagórica com vivência no Espiritismo, Reiki, Radiônica e o exclusivo Método C.A.L.M.A.",
     robots: "Sistemas fechados sem nenhuma base terapêutica ou energética verdadeira.",
   },
 ];

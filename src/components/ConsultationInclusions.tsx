@@ -133,7 +133,7 @@ export const ConsultationInclusions: React.FC = () => {
             <div className="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col justify-center items-start lg:items-end gap-3 lg:border-l lg:border-[#C5A059]/20 lg:pl-8">
               <div className="flex items-center gap-2 text-xs sm:text-sm text-stone-300">
                 <MapPin className="w-4 h-4 text-[#C5A059] shrink-0" />
-                <span>Presencial em <strong>São Paulo/SP</strong></span>
+                <span>Presencial em <strong>São Paulo/SP</strong> (Higienópolis / Jardins)</span>
               </div>
               <div className="flex items-center gap-2 text-xs sm:text-sm text-stone-300">
                 <Sparkles className="w-4 h-4 text-[#C5A059] shrink-0" />
